@@ -1,0 +1,64 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .task-create-container {
+        width: 60%;
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                margin-bottom: 1rem;
+            }
+
+            input {
+                height: 1.8rem;
+                margin-bottom: 1rem;
+                border: 1px solid #999;
+                border-radius: .5rem;
+                outline: none;
+
+                &:focus {
+                    border: none;
+                    border-radius: 0 !important;
+                    border-bottom: 2px solid black;
+                }
+            }
+
+            textarea {
+                border: 1px solid #999;
+                border-radius: .5rem;
+                outline: none;
+
+                &:focus {
+                    border: none;
+                    border-radius: 0 !important;
+                    border-bottom: 2px solid black;
+                }
+            }
+
+            button {
+                margin-top: 1rem;
+                padding: 1rem;
+                background-color: green;
+                font-size: 1rem;
+                font-weight: bold;
+                color: white;
+                letter-spacing: 1.5px;
+                border-radius: .5rem;
+                border-color: transparent;
+            }
+            .upd{
+                width: 20rem;
+                margin-left: -6rem;
+                margin-top: .5rem;
+            }
+            .upd-btn{
+                background-color: purple;
+            }
+        }
+    }
+}
