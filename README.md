@@ -1,3 +1,6 @@
+
+<h1>The api i used => <h3>https://www.npmjs.com/package/json-server</h3></h1>
+
 ![Ekran görüntüsü 2023-03-16 120511](https://user-images.githubusercontent.com/96912858/225568203-197d8b07-f895-45e2-96e0-edf919628a49.png)
 ![Ekran görüntüsü 2023-03-16 120542](https://user-images.githubusercontent.com/96912858/225568212-432bfc89-d90d-476a-b00d-f764f3d053e8.png)
 
