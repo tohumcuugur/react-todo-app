@@ -1,3 +1,17 @@
+
+<h1>The api i used => <h3>https://www.npmjs.com/package/json-server</h3></h1>
+<h2>For use this project</h2>
+<ul>
+ <li>1-Download project</li>
+ <li>2-Open project and write to console npm install for install all dependencys</li>
+ <li>3-Open console and write json-server --watch api/db.json for bring all datas from api</li>
+ <li>4-Open another console and write npm start it will ask to open with another port say yes</li>
+ <li>5-Thats all!</li>
+</ul>
+
+![Ekran görüntüsü 2023-03-16 120511](https://user-images.githubusercontent.com/96912858/225568203-197d8b07-f895-45e2-96e0-edf919628a49.png)
+![Ekran görüntüsü 2023-03-16 120542](https://user-images.githubusercontent.com/96912858/225568212-432bfc89-d90d-476a-b00d-f764f3d053e8.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
