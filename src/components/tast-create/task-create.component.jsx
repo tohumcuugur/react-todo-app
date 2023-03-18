@@ -1,7 +1,12 @@
 import { Fragment, useState } from "react"
 import "./task-create.styles.scss"
+import { useContext } from "react";
+import TaskContext from "../../context/task.component";
 
-export const TaskCreate = ({ onCreate, task, taskFormUpdate, onUpdate }) => {
+export const TaskCreate = ({ task, taskFormUpdate, onUpdate }) => {
+
+  const { createTask } = useContext(TaskContext)
+
   const [title, setTitle] = useState(task ? task.title : "");
   const [taskDescription, setTaskDescription] = useState(task ? task.taskDescription : "");
 
@@ -17,7 +22,7 @@ export const TaskCreate = ({ onCreate, task, taskFormUpdate, onUpdate }) => {
     if (taskFormUpdate) {
       onUpdate(task.id, title, taskDescription)
     } else {
-      onCreate(title, taskDescription);
+      createTask(title, taskDescription)
     }
     setTitle("");
     setTaskDescription("");
